@@ -101,8 +101,9 @@ public class ShowWebView extends Activity {
 
         });
 
-        // Javascript inabled on webview
+        // Javascript enabled on webview
         webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setBuiltInZoomControls(true);
 
         // Other webview options
         /*
